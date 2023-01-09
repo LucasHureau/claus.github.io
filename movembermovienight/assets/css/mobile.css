@@ -1,0 +1,32 @@
+@media screen and (max-width: 900px) {
+
+    .intro-texte-half {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-texte span {
+        font-size: 15vw;
+    }
+    
+    .intro-right p {
+        font-size: 5vw;
+    }
+    
+    .film-liste {
+        height: 100vh;
+        width: 100vw;
+        background-color:  var(--white);
+    }
+
+    .film-blocks {
+        width: 60vw;
+        grid-template-columns: 1fr;
+        padding: 4rem;
+    }
+
+    .menu-bottom {
+        height: 100vh;
+        width: 100vw;
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
